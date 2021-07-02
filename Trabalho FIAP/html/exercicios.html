@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/Trabalho FIAP/css/exercicios.css">  
+  <title>Health Track - Exercicios</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Health Track</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="perfil.html">Perfil</a>
+          <a class="nav-link" href="exercicios.html">Exercícios</a>
+          <a class="nav-link" href="peso.html">Seu peso</a>
+          <a class="nav-link" href="login.html">Sair</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <br>
+    <br>
+    <h3>O último exercício que você praticou foi "Musculação" em 22/05/2021</h3>
+    <br>
+    <label for="exampleDataList" class="form-label">Qual atividade você praticou?</label>
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Escreva e/ou selecione">
+    <datalist id="datalistOptions">
+      <option value="Corrida">
+      <option value="Natação">
+      <option value="Futebol">
+      <option value="Basquete">
+      <option value="Musculação">
+      <option value="Luta">
+      <option value="Ciclismo">
+      <option value="Atletismo">
+    </datalist>
+    <br>
+    <p>Qual foi a duração em minutos?</p>
+    <input type="text">
+    <br>
+    <br>
+    <a href="/Trabalho FIAP/html/exercicios.html"><button type="button" class="btn btn-success">Registrar exercício</button></a>
+    <br>
+    <br>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#login {
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+    
+}
+
+.fundo {
+    background-image: url(../imagens/pexels-photo-3756042.jpeg);
+}
